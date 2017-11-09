@@ -1,0 +1,86 @@
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic01a.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>Ryan and Hayley meet at Uni through the SCUBA diving club and start dating March 2008. Their first date is a bit 'unconventional' as it's a back-to-school themed engineering party.</p>
+  </div>
+  <div class="image">
+    <img src="images/pic01b.jpg" alt="" />
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic02.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>Things go really well over the next few years - they go on their first overseas trip together and discover they still enjoy each other's company even when it's 24/7. They decide to move in together November 2010.</p>
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic03.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>Rimu joins the family January 2012. Hayley had wanted a cat since she was 6 years old so was completely smitten with Rimu from day one. </p>
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic04.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>Ryan pops the question and Hayley says yes April 2016 (on the same day Ryan submits the examination copy of his PhD thesis and Hayley submits the final version of her PhD - big day!). This is followed by a few magical days on Waiheke as an engagement-moon.</p>
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic05.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>They embark on their big overseas adventure together and move to the UK May 2016. They quickly get settled into life in Birmingham while making sure to explore as much of the UK and Europe as possible.</p>
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic06.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>They graduate together with their PhDs May 2017. It's a great celebration of countless years of studying and the transition into the 'real-world' (or for Ryan at least, Hayley technically still hasn't left uni...).</p>
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="image">
+    <img src="images/pic07.jpg" alt="" />
+  </div>
+  <div class="content">
+    <p>Ryan and Hayley fiiiiiiinally tie the knot March 2018 after 10 years!! They're excited to start the next phase together.<p id="daystogether"></p>
+  </div>
+</section>
+
+<script>
+// Days Together
+var countUpDate = new Date(1205323200000).getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = now - countUpDate;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+  // Display the result in the element with id="demo"
+  document.getElementById("daystogether").innerHTML = "(" + days + " days together and counting)";
+}, 1000);
+</script>

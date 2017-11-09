@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: "Ryan + Hayley"
+description: |
+    Auckland
+
+    March 10, 2018
+owner: Ryan McCardle # or company name
+first_published: 2017 # if migrating another site, the year of your first publish
+email: wedding@mccardle.nz
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://wedding.mccardle.nz" # the base hostname & protocol for your site
+
+google_analytics: UA-?????
+
+social:
+  #twitter: https://twitter.com/menzenski
+  #github: https://github.com/menzenski/wedding-site
+  #linkedin-square: https://linkedin.com/in/<username>
+  #facebook-official: https://facebook.com/<username>
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  #email: /contact/
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+# Build settings
+markdown: kramdown
+kramdown: 
+  parse_block_html: true
+#sass:
+#  style: compressed
