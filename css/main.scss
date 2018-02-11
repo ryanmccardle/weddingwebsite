@@ -1272,6 +1272,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.style2 {
+			@include wrapper(accent3);
 			background-color: #FFDBBA;
 		}
 
